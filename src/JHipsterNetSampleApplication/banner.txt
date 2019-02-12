@@ -1,0 +1,9 @@
+  ${AnsiColor.GREEN}      ██╗${AnsiColor.RED} ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗ ${AnsiColor.MAGENTA}   ███╗   ██╗███████╗████████╗
+  ${AnsiColor.GREEN}      ██║${AnsiColor.RED} ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗${AnsiColor.MAGENTA}   ████╗  ██║██╔════╝╚══██╔══╝
+  ${AnsiColor.GREEN}      ██║${AnsiColor.RED} ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝${AnsiColor.MAGENTA}   ██╔██╗ ██║█████╗     ██║
+  ${AnsiColor.GREEN}██╗   ██║${AnsiColor.RED} ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║ ${AnsiColor.MAGENTA}   ██║╚██╗██║██╔══╝     ██║
+  ${AnsiColor.GREEN}╚██████╔╝${AnsiColor.RED} ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗${AnsiColor.MAGENTA}██╗██║ ╚████║███████╗   ██║
+  ${AnsiColor.GREEN} ╚═════╝ ${AnsiColor.RED} ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝${AnsiColor.MAGENTA}╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝
+${AnsiColor.WHITE}██████████████████████████████████████████████████████████████████████████████████████████████████████████████
+${AnsiColor.BRIGHT_BLUE}:: JHipster.Net 🤓  :: Running .Net Core 2.2 - ASP.Net Core 2.2.0 ::
+:: http://jhipster.github.io ::${AnsiColor.DEFAULT}

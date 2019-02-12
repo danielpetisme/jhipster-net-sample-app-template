@@ -21,7 +21,7 @@ namespace JHipsterNetSampleApplication {
         public void ConfigureServices(IServiceCollection services)
         {
             services
-                .AddNhipsterModule(Configuration)
+                .AddJhipsterNetModule(Configuration)
                 .AddDatabaseModule(Configuration)
                 .AddSecurityModule()
                 .AddProblemDetailsModule()

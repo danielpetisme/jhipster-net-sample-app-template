@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace JHipsterNetSampleApplication.Infrastructure {
     public static class NhipsterSettingsConfiguration {
-        public static IServiceCollection AddNhipsterModule(this IServiceCollection @this, IConfiguration configuration)
+        public static IServiceCollection AddJhipsterNetModule(this IServiceCollection @this, IConfiguration configuration)
         {
 //            https://andrewlock.net/how-to-use-the-ioptions-pattern-for-configuration-in-asp-net-core-rc2/
 //            https://andrewlock.net/adding-validation-to-strongly-typed-configuration-objects-in-asp-net-core/
