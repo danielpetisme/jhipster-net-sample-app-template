@@ -7,11 +7,13 @@ module.exports = {
     isExternalLib
 };
 
+const _root = path.resolve(__dirname, '..');
+
 const parseString = require('xml2js').parseString;
 // return the version number from `pom.xml` file
 function parseVersion() {
     let version = null;
-    const projectFile = fs.readFileSync('JhipsterNetSampleApplication.csproj', 'utf8');
+    const projectFile = fs.readFileSync(path.resolve(_root, 'JhipsterNetSampleApplication.csproj'), 'utf8');
     parseString(projectFile, (err, result) => {
         if (err) {
             throw new Error('Failed to parse JhipsterNetSampleApplication.csproj: ' + err);
@@ -25,8 +27,6 @@ function parseVersion() {
     }
     return version;
 }
-
-const _root = path.resolve(__dirname, '..');
 
 function root(args) {
   args = Array.prototype.slice.call(arguments, 0);
