@@ -11,6 +11,8 @@ const parseString = require('xml2js').parseString;
 // return the version number from `pom.xml` file
 function parseVersion() {
     let version = null;
+    console.log(__dirname);
+    console.log(path.resolve(__dirname, 'JhipsterNetSampleApplication.csproj'));
     const projectFile = fs.readFileSync('JhipsterNetSampleApplication.csproj', 'utf8');
     parseString(projectFile, (err, result) => {
         if (err) {
