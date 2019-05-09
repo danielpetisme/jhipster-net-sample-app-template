@@ -7,6 +7,9 @@ module.exports = {
     isExternalLib
 };
 
+console.log('>>>>>>>>>>>' + __dirname);
+console.log('>>>>>>>>>>>' + path.resolve(__dirname, 'JhipsterNetSampleApplication.csproj'));
+
 const parseString = require('xml2js').parseString;
 // return the version number from `pom.xml` file
 function parseVersion() {
